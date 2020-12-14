@@ -1,0 +1,602 @@
+*
+{
+    font-family: 'Poppins', sans-serif;
+	/*dzia�a */
+}
+
+body
+{
+    margin:0;
+    padding:0;
+    max-height: 100%;  
+   /* font-family: 'Exo', sans-serif;*/
+   /* font-family: 'Raleway', sans-serif;*/
+    /*font-family: 'Montserrat', sans-serif;*/
+}
+
+/* LOGO  I MENU */ 
+
+
+.navigation
+{ 
+    width: 100%;
+    height: 75px;
+    background-color:whitesmoke;
+    
+    
+}
+
+
+.logo
+{
+    position: absolute;
+    left:15%;
+    float: left;
+    
+}
+
+.logo h1
+{
+    font-size:40px;
+    padding: 10px;
+    
+}
+
+.menu
+{
+    position: absolute;
+    right: 25%;
+    float: right;
+    font-size:22px;
+    padding: 6px;
+    
+    
+}
+
+.menu-item
+{
+    margin-right: 30px;
+    color:black;
+}
+
+.menu-item-img
+{
+    margin-right: 15px;
+    width:40px;
+    height: 40px;
+    display: none;
+}
+
+
+.link:hover
+{
+    text-decoration: none;
+    color:rgb(216, 27, 27);
+    
+    
+}
+
+.btnCount
+{
+    margin-left:30px;
+}
+
+/* SLIDER */ 
+
+.slider
+{
+   
+    /*background-color:gray;*/
+    background:url(img/s11.jpg);
+    width:100%;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.mySlides
+{
+    text-align: center;
+}
+/* */ 
+
+.content-menu
+{
+    
+    width:100%;
+    height: 120px;
+    text-align: center;
+    background-color:whitesmoke;
+
+}
+
+.content-menu table
+{
+    font-size:25px;
+    font-weight: 600;
+    display: inline-block;
+    margin:30px auto;
+
+}
+
+
+
+.contentsBox
+{
+    display:inline-block;
+    color:white;
+    margin-right: 20px;
+    text-decoration:none;
+    width:250px;
+    padding:10px;
+    background-color:rgb(33, 182, 33);
+    border-radius: 5px;
+}
+
+.contentsBox:hover
+{
+    border-radius: 5px;
+    text-decoration: none;
+    color:white;
+    transition: 0.5s;
+    background:rgb(255, 164, 0);
+    cursor: pointer;
+}
+
+
+/* */ 
+
+.deviceContainer
+{
+    
+    width:60%;
+    height: 1200px;
+    margin: 50px auto;
+}
+
+
+/* BOX */ 
+
+.productBox
+{
+    margin:15px auto;
+    width:95%;
+    height: 280px;
+    background-color:whitesmoke;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+.productImg, .productDetails, .addToCart
+{
+    float: left;
+    height: 100%;
+}
+
+.productImg
+{
+    padding-top: 10px;
+    width:25%;
+    text-align: center;
+}
+
+.productDetails
+{
+    width:55%;
+    padding-left:20px;
+}
+
+.productFeatures
+{
+    margin-top:15px;
+}
+
+.productFeatures > p
+{
+    height: 15px;
+}
+
+.addToCart
+{
+    width:20%;    
+}
+
+.checked
+{
+    color:orange;
+}
+
+.addToCart > h2
+{
+    margin-top:15%;
+}
+
+.btnAddToCart
+{
+    margin-top:50%;
+    width:200px;
+    
+}
+
+/* */ 
+
+/* footer */
+
+footer
+{
+    /*font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    width:100%;
+    height:250px;
+    background-color:black;
+    text-align: center;
+    font-size:30px;
+    
+}
+
+.xx
+{
+    height: 100%;
+    width:80%;
+    margin:auto;
+}
+
+.footer-block-frs, .footer-block-sec, .footer-block-thrd, .social-media-icon
+{
+
+    float:left;
+    margin:auto;
+    color:white;
+    width:25%;
+    height: 100%;   
+}
+
+.footer-img
+{
+    padding-top:50px;
+    margin-bottom:20px;
+}
+
+.social-media-icon
+{
+    
+    background-color:orange;
+    height: 100%;
+    padding-top: 50px;
+}
+
+.social-media-icon img
+{
+    
+    width:45px;
+    height: 45px;
+    padding:8px;
+}
+
+.social-media-icon h1
+{
+    margin-top:15px;
+    font-size: 15px;
+    
+}
+
+
+ /* shopping cart */ 
+
+
+.cont
+{
+    height: 100%;
+    width:70%;
+    margin:auto;   
+
+}
+
+
+.shopping-cart-container
+{
+    text-align:center;
+    width:100%;
+    height: 700px;
+    background-color:rgb(206, 206, 206);
+    
+}
+
+.product-cart-finall, .product-count
+{
+    background:white;
+    float: left;
+    margin-top:50px;
+}
+
+
+
+
+.product-cart-finall
+{   
+    width:65%;
+    height: 70%;
+    margin-right: 20px;
+
+}
+
+.product-count
+{
+    width:30%;
+    height: 55%;
+}
+
+.price-total
+{
+    font-size:30px;
+    margin-top:15px;
+    text-align: center;
+}
+
+.price-total > span
+{
+    padding:20px;
+    
+    
+}
+
+.badDiscountCode
+{
+    text-decoration: underline;
+    padding:5px;
+    margin-bottom: -45px;
+}
+
+#continueStyle
+{
+    margin-top:30px;
+    width:75%;
+    padding: 8px;
+    font-size:22px;
+}
+
+.dicount-div
+{
+    width:100%;
+    text-align: center;
+}
+
+#input-discount
+{
+    margin-left:5%;
+    width:80%;
+    margin-top:15%;
+    
+}
+
+.product-total-table
+{
+    text-align: left;
+}
+
+.cart-option-btn > a
+{
+    padding:10px;
+    margin-right: 25px;
+    
+    
+}
+
+.product-list-table
+{
+    width:80%;
+    font-size:25px;
+    margin:50px auto;
+}
+
+
+
+/*********/ 
+
+.containerHeight
+{
+    width:70%; 
+    margin:auto;
+}
+
+.payContainer
+{
+    text-align:center; 
+    margin-top:50px;
+    
+    
+}
+
+.payNavText
+{
+    padding:5px;
+}
+     
+.payInterface
+{
+    width:60%;
+    margin:auto;
+}
+
+.chooseMethod
+{
+    display:flex;
+    flex-wrap:wrap;
+    margin-top:35px;
+    margin-bottom: 30px;
+}
+
+.methodCard
+{
+    width:23%;
+    flex-grow:1;
+    height: 120px;
+    background:rgb(243, 243, 243);
+    border-radius: 7px;
+    padding:7px;
+    margin:5px;   
+}
+
+.methodCard:hover
+{
+    background:rgb(187, 203, 255);
+    cursor: pointer; 
+}
+
+
+.methodCardAction
+{
+    background:rgb(187, 203, 255);
+    cursor: pointer;  
+}
+
+.divImgSize 
+{
+    text-align:center;
+}
+.divImgSize > img
+{
+    width:70px;
+    height:70px;   
+} 
+
+.payInfo
+{
+    color:gray;
+}
+
+.chooseMethod  a 
+{
+    text-decoration:none;
+}
+/**/
+.billingForm, .creditCardInfo
+{
+    width:60%;  
+    margin: auto; 
+      
+}
+.billingForm
+{
+    margin-top:160px;
+}
+
+.formNav
+{
+    text-align: left;
+    padding:10px;
+}
+
+.userInfoTable
+{
+    width:100%;   
+    text-align: left;
+}
+
+.userInfoTable tr td
+{
+    width: 100%;  
+}
+
+.userInputSmaller
+{
+    border-radius: 7px;
+    padding:10px;
+    border:1px solid lightgray;
+}
+
+.userInput
+{
+    width:100%;
+    border-radius: 7px;
+    padding:10px;
+    border:1px solid lightgray;
+
+}
+
+.formPay
+{
+    width:70%;
+    margin:auto;
+}
+
+.navigationButtons
+{
+   margin-bottom: 150px;
+   padding: 50px;
+    
+}
+
+
+.userDataContainer
+{
+    height: 700px;
+}
+
+.returnBtn
+{
+    float: left;
+    margin-left:100px;
+}
+
+.proceedBtn, .bToCart
+{
+    float:right;
+    margin-right: 20px;
+}
+
+
+/* */ 
+
+.userAccountContainer
+{
+    width:1000px;
+    height: 750px;
+    margin:auto;
+    
+    
+}
+
+.u1
+{
+    padding:10px;
+}
+
+
+.loginForm , .registerForm
+{
+    
+    width:498px;
+    float: left;
+    height: 250px;   
+    padding:15px; 
+    margin-top:200px;
+    
+}
+
+.regTable
+{
+    margin: auto;
+    
+}
+.regTable tr td
+{
+    padding:10px;
+}
+
+.userLoginForm
+{
+    text-align: center;
+    padding:10px;
+}
+
+.summary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    
+}
